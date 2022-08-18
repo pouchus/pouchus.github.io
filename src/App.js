@@ -1,4 +1,4 @@
-import logo from './kilat-fancy.png';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -6,17 +6,22 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="logo" style={{maxWidth: '300px'}} />
-        <h1>
-          Kilat Payments, Inc.
-        </h1>
+
         <p style={{ width: '50%'}}>
-          Kilat Payments, Inc. was founded in 2022 in Makati, Philippines. The company's mission is to improve efficiency and interoperability of payments systems within the Philippines and worldwide by utilizing the emerging Lightning Network protocol.
+          <br/>
+          <b>Currently in Closed Beta.</b><br/><br/>
+          If sending international micropayments by the thousands is a pain point for you, drop us a note at <b>hello@pouch.us</b>.
         </p>
+
+        <p style={{ width: '50%'}}>
+        Pouch.us is a US-based payment processor focused on improving the efficiency of international micropayments by utilizing the emerging global payment standard: "The Lightning Network".
+        </p>
+
       </header>
-      <footer style={{backgroundColor: '#DDD', minHeight: '320px', padding: '48px', boxSizing: 'border-box', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-      &copy;2022 Kilat Payments, Inc.
+      <footer style={{backgroundColor: '#EEF', minHeight: '320px', padding: '48px', boxSizing: 'border-box', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      &copy;2022 Pouch PH Inc
       <br/><br/>
-      hello@kilat.ph
+      hello@pouch.us
       </footer>
     </div>
   );
