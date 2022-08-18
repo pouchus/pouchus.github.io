@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import logo from './kilat-fancy.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src={logo} alt="logo" style={{maxWidth: '300px'}} />
+        <h1>
+          Kilat Payments, Inc.
+        </h1>
+        <p style={{ width: '50%'}}>
+          Kilat Payments, Inc. was founded in 2022 in Makati, Philippines. The company's mission is to improve efficiency and interoperability of payments systems within the Philippines and worldwide by utilizing the emerging Lightning Network protocol.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <footer style={{backgroundColor: '#DDD', minHeight: '320px', padding: '48px', boxSizing: 'border-box', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      &copy;2022 Kilat Payments, Inc.
+      <br/><br/>
+      hello@kilat.ph
+      </footer>
     </div>
   );
 }
